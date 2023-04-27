@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie 60</title>
+  <style>
+
+    .blok {
+      width: calc(600px + var(--numer-dziennika) * 1px);
+      height: 100px;
+      background-color: green;
+      color: white;
+      font-size: calc(18px + var(--reszta-z-dzielenia-nazwisko) * 1px);
+      text-align: center;
+      line-height: 100px;
+      transition: background-color 0.5s;
+    }
+
+    #blok1_kiernozek:hover {
+      background-color: #ffc107;
+    }
+
+    #blok2_kiernozek:hover {
+      background-color: #4caf50;
+    }
+
+    #blok3_kiernozek:hover {
+      background-color: #2196f3;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="blok1_kiernozek" class="blok">KIERNOZEK</div>
+  <div id="blok2_kiernozek" class="blok">KIERNOZEK</div>
+  <div id="blok3_kiernozek" class="blok">KIERNOZEK</div>
+</body>
+
+</html>
